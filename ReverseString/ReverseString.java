@@ -26,30 +26,27 @@ public class ReverseString {
 
 
     public static void main(String args[]) {
-/*
+
             //quick wasy to reverse String in Java - Use StringBuffer
             String word = "HelloWorld";
             String reverse = new StringBuffer(word).reverse().toString();
-            System.out.printf(" original String : %s ,
-                    reversed String %s  %n", word, reverse);
+            System.out.printf(" original String : %s , reversed String %s  %n", word, reverse);
 
                     //another quick to reverse String in Java - use StringBuilder
                     word = "WakeUp";
             reverse = new StringBuilder(word).reverse().toString();
-            System.out.printf(" original String : %s ,
-                    reversed String %s %n", word, reverse);
+            System.out.printf(" original String : %s , reversed String %s %n", word, reverse);
 
                     // one way to reverse String without using
                     // StringBuffer or StringBuilder is writing
                     // own utility method
                     word = "Band";
             reverse = reverse(word);
-            System.out.printf(" original String : %s ,
-                    reversed String %s %n", word, reverse);
+            System.out.printf(" original String : %s , reversed String %s %n", word, reverse);
         }
 
 
-        public static String reverse(String source){
+        private static String reverse(String source){
             if(source == null || source.isEmpty()){
                 return source;
             }
@@ -59,14 +56,15 @@ public class ReverseString {
             }
 
             return reverse;
-        }*/
+        }
 
     }
-}
+
 
 /*
     Output:
     original String: HelloWorld, reversed String dlroWolleH
     original String: WakeUp, reversed String pUekaW
-    original String: Band, reversed String dnaB*/
+    original String: Band, reversed String dnaB
+    */
 
