@@ -12,7 +12,6 @@ public class Palindrome {
      *
      * @author Javin
      */
-    public class PalindromeTest {
 
 
         public static void main(String args[]) {
@@ -61,4 +60,4 @@ public class Palindrome {
     Is bbbb palindrom?: true
     Is defg palindrom?: false
 */
-}
+

@@ -51,4 +51,4 @@ public class FindFactoiral {
     factorial of 6 using iteration in Java is: 720
 
     Read more: https://javarevisited.blogspot.com/2012/04/java-program-to-find-factorial-of.html#ixzz6B3hrtYm8*/
-}
+

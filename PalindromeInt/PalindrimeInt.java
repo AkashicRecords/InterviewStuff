@@ -11,7 +11,7 @@ public class PalindrimeInt {
      * A number is called palindrome if number and its reverse is equal
      * This Java program can also be used to reverse a number in Java
      */
-    public class NoClassDefFoundErrorDueToStaticInitFailure {
+ //   public class NoClassDefFoundErrorDueToStaticInitFailure {
 
         public static void main(String args[]){
 
@@ -59,4 +59,4 @@ public class PalindrimeInt {
     Number : 123 is a palindrome
 */
 
-}
+

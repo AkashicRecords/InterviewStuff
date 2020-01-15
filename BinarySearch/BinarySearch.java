@@ -8,13 +8,12 @@ public class BinarySearch {
     /*
      * Java Program to implement binary search without using recursion
      */
-    {
 
-        public static void main(String[] args) {
+
+        public static void main (String[] args) {
 
             Scanner commandReader = new Scanner(System.in);
-            System.out.println("Welcome to Java Program to perform
-                    binary search on int array");
+            System.out.println("Welcome to Java Program to perform binary search on int array");
             System.out.println("Enter total number of elements : ");
             int length = commandReader.nextInt();
             int[] input = new int[length];
@@ -24,8 +23,7 @@ public class BinarySearch {
                 input[i] = commandReader.nextInt();
             }
 
-            System.out.println("Please enter number to be searched in array
-            (sorted order)");
+            System.out.println("Please enter number to be searched in array (sorted order)");
             int key = commandReader.nextInt();
 
             int index = performBinarySearch(input, key);
@@ -99,4 +97,4 @@ public class BinarySearch {
 10
     Sorry, 10 is not found in array
 */
-}
+

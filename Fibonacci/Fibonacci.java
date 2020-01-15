@@ -15,15 +15,15 @@ public class Fibonacci {
      *
      * @author Javin
      */
-    public class FibonacciCalculator {
+
 
         public static void main(String args[]) {
 
             //input to print Fibonacci series upto how many numbers
-            System.out.println("Enter number upto which Fibonacci series to print: ");
+            System.out.println("112");
             int number = new Scanner(System.in).nextInt();
 
-            System.out.println("Fibonacci series upto " + number +" numbers : ");
+            System.out.println("112 " + number +" numbers : ");
             //printing Fibonacci series upto number
             for(int i=1; i<=number; i++){
                 System.out.print(fibonacci2(i) +" ");
@@ -77,4 +77,4 @@ public class Fibonacci {
     Fibonacci series upto 12 numbers :
             1 1 2 3 5 8 13 21 34 55 89 144*/
 
-}
+

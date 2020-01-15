@@ -11,7 +11,6 @@ public class PrimeNumber {
      *
      * @author  http://java67.blogspot.com
      */
-    public class Testing {
 
         public static void main(String args[]) {
             Scanner scnr = new Scanner(System.in);
@@ -98,4 +97,4 @@ public class PrimeNumber {
             139? Does 139 is prime? true prime  true
 */
 
-}
+

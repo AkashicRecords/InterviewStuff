@@ -13,7 +13,6 @@ public class ReverseArrayInPlace {
      * @author WINDOWS 8
      *
      */
-    public class ReverseArrayInPlace {
 
         public static void main(String args[]){
 
@@ -58,4 +57,4 @@ public class ReverseArrayInPlace {
     reversed array: [Luke, Jammy, John]
     original array: [John]
     reversed array: [John]*/
-}
+

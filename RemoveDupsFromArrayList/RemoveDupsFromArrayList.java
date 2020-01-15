@@ -13,7 +13,6 @@ public class RemoveDupsFromArrayList {
      * @author WINDOWS 8
      */
 
-    public class ArrayListDuplicateDemo{
 
 
         public static void main(String args[]){
@@ -53,4 +52,4 @@ public class RemoveDupsFromArrayList {
     Output
     list of prime numbers : [2, 3, 5, 7, 7, 11]
     list of primes without duplicates : [2, 3, 5, 7, 11]*/
-}
+

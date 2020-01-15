@@ -4,18 +4,17 @@ public class ReverseString {
 
 
     /**
-     *
      * Java program to reverse String in Java.
      * There are multiple ways to reverse
      * String in Java, you can either take help of standard
      * Java API StringBuffer to reverse String in Java.
      * StringBuffer has a reverse() method which returns StringBuffer
      * with reversed contents.
-     *
+     * <p>
      * On the other hand, you can also reverse it by applying your
      * own logic, if asked to reverse String without
      * using StringBuffer in Java.
-     *
+     * <p>
      * By the way you can also use StringBuilder to reverse
      * String in Java. StringBuilder is non-thread-safe
      * version of StringBuffer and provides similar API.
@@ -26,8 +25,8 @@ public class ReverseString {
      */
 
 
-        public static void main(String args[]) {
-
+    public static void main(String args[]) {
+/*
             //quick wasy to reverse String in Java - Use StringBuffer
             String word = "HelloWorld";
             String reverse = new StringBuffer(word).reverse().toString();
@@ -60,12 +59,14 @@ public class ReverseString {
             }
 
             return reverse;
-        }
+        }*/
 
     }
+}
+
 /*
     Output:
     original String: HelloWorld, reversed String dlroWolleH
     original String: WakeUp, reversed String pUekaW
     original String: Band, reversed String dnaB*/
-}
+

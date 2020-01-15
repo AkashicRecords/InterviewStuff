@@ -79,6 +79,7 @@ public class Testing {
     }
 }
 
+/*
 Output
 Enter number to check if prime or not
 2? Does 2 is prime? true prime number  true
@@ -91,3 +92,4 @@ Enter number to check if prime or not
 21? Does 21 is prime? false not prime  false
 131? Does 131 is prime? true prime  true
 139? Does 139 is prime? true prime  true
+*/
